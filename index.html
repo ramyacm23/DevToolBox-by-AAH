@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevToolbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="dtb-header">
+    <div class="dtb-header-content">
+      <h1 id="project-title" class="dtb-title">DevToolBox</h1>
+      <p id="project-by" class="dtb-subtitle">by The Accessible AI Hub</p>
+    </div>
+  </header>
+  <nav id="category-tabs" class="dtb-tabs" aria-label="Main navigation"></nav>
+  <main class="dtb-main">
+    <section id="tools-list" class="dtb-tools-list" aria-label="Tool list"></section>
+    <aside id="tool-details" class="dtb-tool-details hidden" aria-live="polite"></aside>
+    <section id="about-section" class="dtb-about-section hidden" aria-label="About DevToolBox"></section>
+    <section id="roadmaps-section" class="dtb-roadmaps-section hidden" aria-label="Learning Roadmaps"></section>
+  </main>
+  <script src="tools.js"></script>
+  <script src="roadmap.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
