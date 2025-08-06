@@ -1,6 +1,9 @@
 # DevToolbox
 
 A modular, vanilla JS web app to help developers explore and learn about popular tools, organized by use case.
+[![View Live Site](https://img.shields.io/badge/View%20Live%20Site-DevToolBox-blue?style=for-the-badge&logo=githubpages)](https://deepthibalasubramanian.github.io/DevToolBox-by-AAH/)
+
+---
 
 ## Features
 - Tabs for categories (Version Control, Code Formatting, AI Assistants, etc.)
@@ -83,3 +86,9 @@ DevToolbox/
 
 ---
 Enjoy exploring and contributing to DevToolbox!
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute with attribution.
